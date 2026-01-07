@@ -66,12 +66,7 @@ npm run dev
 Open your browser and navigate to http://localhost:5173.
 
 📂 Project Structure
-code
-Bash
-download
-content_copy
-expand_less
-src/
+```
 ├── components/
 │   ├── Home.jsx       # Create/Edit Paste Interface
 │   ├── Navbar.jsx     # Navigation Bar
@@ -82,6 +77,7 @@ src/
 │   └── store.js       # Redux Store Configuration
 ├── App.jsx            # Layout & Routing
 └── main.jsx           # Entry Point
+```
 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for improvements or bug fixes:
@@ -104,8 +100,3 @@ This project is open-source and available under the MIT License.
 
 Give a ⭐️ if you like this project!
 ***
-
-### 💡 Final Tip for Screenshots:
-Since your app looks cool, take 2 screenshots (one of the Home screen with the earth background, one of the AI split screen).
-1.  Upload them to your GitHub repo (maybe make a folder called `screenshots`).
-2.  Replace the `https://via.placeholder.com...` links in the Markdown above with the actual relative path to your images (e.g., `screenshots/home.png`).
