@@ -44,35 +44,23 @@
 Follow these steps to run the project locally on your machine.
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/your-username/ai-paste.git
 cd ai-paste
+
 2. Install Dependencies
-code
-Bash
-download
-content_copy
-expand_less
+
 npm install
 3. Setup Environment Variables
 
 Create a .env file in the root directory and add your Google Gemini API Key:
 
-code
-Env
-download
-content_copy
-expand_less
 VITE_GEMINI_API_KEY=your_google_gemini_api_key_here
 
 (You can get a free key from Google AI Studio)
 
 4. Run the Development Server
-code
-Bash
-download
-content_copy
-expand_less
+
 npm run dev
 
 Open your browser and navigate to http://localhost:5173.
